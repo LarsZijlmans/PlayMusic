@@ -274,3 +274,89 @@ p {
 .stroke:nth-child(7) {
   animation-delay: 0s;
 }
+
+@media screen and (max-width: 1024px){
+  .title h1 {
+    margin-left: 20%;
+  }
+  .title h1 span {
+    font-size: 60px;
+  }
+  .player {
+    height: 82vh;
+    margin-left: 20%;
+  }
+  .wrapper {
+    padding: 15px;
+  }
+  .track-art {
+    margin: 12.5px;
+    height: 125px;
+    width: 125px;
+  }
+  .now-playing {
+    font-size: 8px;
+  }
+  .track-name {
+    font-size: 20px;
+  }
+  .track-artist {
+    margin-top: 2.5px;
+    font-size: 12px;
+  }
+  .buttons {
+    margin-bottom: 15px;
+  }
+  .repeat-track{
+    font-size: 7px;
+  }
+  .playpause-track{
+    font-size: 7.5px;
+  }
+  .random-track{
+    font-size: 7px;
+  }
+  .prev-track{
+    font-size: 7px;
+  }
+  .next-track{
+    font-size: 7px;
+  }
+  .repeat-track,
+  .random-track,
+  .playpause-track,
+  .prev-track,
+  .next-track {
+  padding: 16px;
+  }
+  .seek_slider,
+  .volume_slider {
+    height: 2.5px;
+  }
+  .seek_slider::-webkit-slider-thumb,.volume_slider::-webkit-slider-thumb {
+  width: 12.5px;
+  height: 12.5px;
+  }
+  .seek_slider {
+    width: 30%;
+  }
+  .volume_slider {
+    width: 15%;
+  }
+  .current-time,
+  .total-duration {
+    padding: 5px;
+  }
+  i.fa-volume-down,
+  i.fa-volume-up {
+  padding: 5px;
+  }
+  .loader {
+    height: 45px;
+  }
+  .loader .stroke {
+    height: 75%;
+    width: 5px;
+    margin: 0 2.5px;
+  }
+}
