@@ -275,7 +275,7 @@ p {
   animation-delay: 0s;
 }
 
-@media all and (max-width: 1080px){
+@media all and (max-width: 1518px){
   .title h1 {
     margin-left: 20%;
   }
